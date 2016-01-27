@@ -17,7 +17,7 @@ FactoryGirl.create :seed_page_version,
 
 FactoryGirl.create :seed_page_version,
   :title => 'Welcome to the weblog', :body => 'Such a lovely day',
-  :version => 24, :author_id => @caged, :revisor_id => @caged,
+  :version => 24, :author_id => @caged.id, :revisor_id => @caged.id,
   :page_id => @welcome_page.id
 
 # Locked Pages
