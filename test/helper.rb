@@ -1,3 +1,7 @@
+require 'simplecov'
+
+SimpleCov.start 'rails' do 
+end
 require 'rubygems'
 require 'bundler'
 require "bundler/setup"
