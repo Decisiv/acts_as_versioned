@@ -22,4 +22,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'factory_girl', '~> 2.6.3'
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'forgery'
+  s.add_development_dependency 'simplecov'
 end
