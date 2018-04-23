@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.homepage      = 'http://github.com/Decisiv/acts_as_versioned/'
   s.summary       = 'ActiveRecord plugin for versioning your models.'
   s.description   = 'ActiveRecord plugin for versioning your models. For Rails 3.'
-  s.files         = `git ls-files`.split("\n") - ["attr_stripper.gemspec"]
+  s.files         = `git ls-files`.split("\n") - ["acts_as_versioned.gemspec"]
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ['lib']
